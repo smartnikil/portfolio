@@ -1,0 +1,155 @@
+body{
+  font-family: 'Kanit', sans-serif;
+}
+/* section{
+  height: 500px;
+  background-color: white;
+} */
+.section-header{
+  background-color: rgb(13, 3, 105);
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  width: 700px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+li{
+  /* width: 200px; */
+  text-decoration: none;
+}
+h1{
+  font-size: 90px;
+margin: 0;
+}
+p{
+  margin: 0;
+  font-size: 30px;
+}
+.project-text{
+  font-size: 15px;
+  font-weight: 300;
+}
+.section-header-area{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-header-text{
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+.button{
+  background-color: rgb(184, 18, 178);
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  text-align:center;
+  font-size: 30px;
+  /* padding-top: 5px; */
+  margin-top: 20px;
+  font-weight: 600;
+}
+.button:hover{
+background-color:  rgb(170, 33, 191);
+}
+.button:active{
+  background-color: rgb(222, 16, 16);
+  color: rgb(201, 200, 175);
+}
+.social-media{
+  padding-bottom: 200px;
+}
+.social-items{
+margin: 20px;
+}
+h2{
+  font-size: 50px;
+}
+.image-of-me{
+  display: flex;
+  align-items: center;
+}
+.my-image{
+  width: 400px;
+  /* height: 300px; */
+  border-radius: 120px;
+}
+.project-card{
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px black;
+}
+.project-setup{
+  display: flex;
+  justify-content: space-around;
+}
+.project-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.contact-section{
+background-color: black;
+height: 500px;
+color: white;
+padding: 80px;
+text-align: center;
+}
+@media only screen and (max-width:1000px) {
+  .project-setup{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/*menu icon*/
+.hamburger{
+   display: none;
+}
+.hamburger:focus{
+  outline: 0;
+}
+@media only screen and (max-width:1000px)  {
+  .hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+  ul{
+    display: none;
+    background-color: rgb(13, 3, 67);
+    margin: 0px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  ul.show{
+    display: block;
+  }
+  .logo{
+    display: none;
+  }
+}
